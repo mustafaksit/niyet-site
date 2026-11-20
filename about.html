@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>About Niyet</title>
-<meta name="description" content="Niyet is a simple app that helps you find the right dua for your situation, according to the Hanafi school. Every dua is based on a specific source; no dua without a source can enter the app.">
+<meta name="description" content="Niyet is a simple app that helps you find the right dua for your situation, according to the Hanafi school. Every dua is based on a primary source; no dua without a source can enter the app. The app is free, has no ads or purchases, and works offline.">
 <meta name="color-scheme" content="light dark">
 <meta name="theme-color" content="#F6F1E8" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#131714" media="(prefers-color-scheme: dark)">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;1,400&display=swap">
 <style>
 :root {
   --bg: #F6F1E8;
@@ -39,14 +39,14 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: 'Lora', Georgia, 'Times New Roman', serif;
+  font-family: 'Nunito', -apple-system, 'Segoe UI', sans-serif;
   font-size: 16px;
   line-height: 25px;
 }
 .wrap { max-width: 680px; margin: 0 auto; padding: 32px 16px 56px; }
 header.top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 32px; }
-.brand { font-family: 'Fraunces', Georgia, serif; font-weight: 500; font-size: 20px; color: var(--text); text-decoration: none; }
-h1, h2 { font-family: 'Fraunces', Georgia, serif; font-weight: 500; color: var(--text); }
+.brand { font-family: 'Nunito', -apple-system, sans-serif; font-weight: 600; font-size: 20px; color: var(--text); text-decoration: none; }
+h1, h2 { font-family: 'Nunito', -apple-system, sans-serif; font-weight: 600; color: var(--text); }
 h1 { font-size: 34px; line-height: 40px; margin: 0 0 8px; }
 h2 { font-size: 20px; line-height: 26px; margin: 32px 0 8px; }
 p { margin: 0 0 12px; }
@@ -56,7 +56,7 @@ a { color: var(--text); text-decoration-color: var(--accent); text-underline-off
 a:hover { text-decoration-color: var(--text); }
 .toggle { display: inline-flex; border: 1px solid var(--border); border-radius: 999px; background: var(--bg-elevated); padding: 2px; }
 .toggle button {
-  font: 500 13px/18px 'Lora', Georgia, serif;
+  font: 500 13px/18px 'Nunito', -apple-system, sans-serif;
   color: var(--text-secondary);
   background: transparent;
   border: 0;
@@ -121,53 +121,71 @@ html[data-lang="en"] [data-l="tr"], html[data-lang="tr"] [data-l="en"] { display
 <article data-l="en" lang="en">
 <h1>About Niyet</h1>
 <div class="lead">
-<p>Niyet is a simple app that helps you find the right dua for your situation, according to the Hanafi school. Every dua is based on a specific source; no dua without a source can enter the app.</p>
+<p>Niyet is a simple app that helps you find the right dua for your situation, according to the Hanafi school. Every dua is based on a primary source; no dua without a source can enter the app. The app is free, has no ads or purchases, and works offline.</p>
 </div>
 <section>
 <h2>Quranic verses</h2>
-<p>The Arabic text is taken without modification from the Tanzil Project Quran text (Tanzil Quran Text, Uthmani, Copyright (C) 2007-2026 Tanzil Project, https://tanzil.net), licensed under Creative Commons Attribution 3.0. The Turkish translation is Niyet's original translation from the Arabic. The English translation is Marmaduke Pickthall's public domain translation from 1930, with archaic pronouns adapted to modern English.</p>
+<p>Quran text: Tanzil Project (tanzil.net). The Arabic is taken without modification from the Tanzil Uthmani text (Copyright (C) 2007-2026 Tanzil Project, Creative Commons Attribution 3.0). The Turkish and English meanings are original translations written by Niyet from the Arabic.</p>
+<p><a href="https://tanzil.net">tanzil.net</a></p>
 </section>
 <section>
 <h2>Hadith</h2>
-<p>Hadith duas are taken only from the six canonical collections (Kutub al-Sittah): Bukhari, Muslim, Abu Dawud, Tirmidhi, Nasa'i and Ibn Majah. Each hadith lists its collection, hadith number and narrator. Turkish and English hadith translations are original translations from the Arabic. Hadith texts and numbers are verified against an open hadith database (fawazahmed0/hadith-api) and sunnah.com.</p>
+<p>Hadith duas are taken only from the six canonical collections, from sahih or hasan narrations: Bukhari, Muslim, Abu Dawud, Tirmidhi, Nasa'i and Ibn Majah. Each dua lists its collection, hadith number, narrator and grade. The Turkish and English meanings are original translations written by Niyet from the Arabic.</p>
 </section>
 <section>
 <h2>Pronunciation</h2>
-<p>Every dua has two transliterations: the Turkish reading tradition in the Turkish interface and an international transliteration in the English interface.</p>
+<p>Every dua has two transliterations: a Turkish reading in the Turkish interface and an international reading in the English interface. Both are written by Niyet with one consistent scheme.</p>
+</section>
+<section>
+<h2>Health</h2>
+<p>Duas are not a substitute for medical treatment. For health problems, see a doctor.</p>
+</section>
+<section>
+<h2>Fonts</h2>
+<p>The Nunito and Amiri Quran typefaces are used under the SIL Open Font License 1.1.</p>
 </section>
 <section>
 <h2>Reporting an error</h2>
-<p>If you notice an error in a dua, you can send feedback from Settings. Every report is checked against its source.</p>
+<p>If you notice an error in a dua, use the feedback row in Settings to write to mustafaaksit@outlook.com. Every report is checked against its source.</p>
 </section>
 <section class="card">
 <h2>Contact</h2>
-<p>For support, questions or to report an error in a dua, email: <a id="support-email" href="mailto:SUPPORT_EMAIL_TBD">SUPPORT_EMAIL_TBD</a></p>
+<p>For support, questions or to report an error in a dua, email: <a id="support-email" href="mailto:mustafaaksit@outlook.com">mustafaaksit@outlook.com</a></p>
 </section>
 </article>
 <article data-l="tr" lang="tr">
 <h1>Niyet Hakkında</h1>
 <div class="lead">
-<p>Niyet, Hanefi mezhebine göre durumuna uygun duayı bulmanı sağlayan sade bir uygulamadır. Her dua kesin bir kaynağa dayanır; kaynaksız dua uygulamaya giremez.</p>
+<p>Niyet, Hanefi mezhebine göre durumuna uygun duayı bulmanı sağlayan sade bir uygulamadır. Her dua birincil bir kaynağa dayanır; kaynaksız dua uygulamaya giremez. Uygulama ücretsizdir, reklam ve satın alma içermez, internetsiz çalışır.</p>
 </div>
 <section>
 <h2>Kur'an ayetleri</h2>
-<p>Arapça metin, Tanzil Project'in Kur'an metninden (Tanzil Quran Text, Uthmani, Copyright (C) 2007-2026 Tanzil Project, https://tanzil.net) Creative Commons Attribution 3.0 lisansıyla, değiştirilmeden alınmıştır. Türkçe meal Niyet'in Arapça asıldan özgün çevirisidir. İngilizce meal Marmaduke Pickthall'un kamu malı olan 1930 tarihli çevirisidir; eski zamirler günümüz İngilizcesine uyarlanmıştır.</p>
+<p>Kur'an metni: Tanzil Project (tanzil.net). Arapça metin Tanzil Uthmani metninden değiştirilmeden alınmıştır (Copyright (C) 2007-2026 Tanzil Project, Creative Commons Attribution 3.0). Türkçe ve İngilizce anlamlar Niyet tarafından Arapça asıldan özgün olarak yazılmıştır.</p>
+<p><a href="https://tanzil.net">tanzil.net</a></p>
 </section>
 <section>
 <h2>Hadisler</h2>
-<p>Hadis duaları yalnızca Kütüb-i Sitte'den alınır: Buhârî, Müslim, Ebû Dâvûd, Tirmizî, Nesâî ve İbn Mâce. Her hadiste koleksiyon, hadis numarası ve ravi belirtilir. Türkçe ve İngilizce hadis çevirileri Arapça asıldan özgün olarak yapılmıştır. Hadis metinleri ve numaraları açık hadis veritabanı (fawazahmed0/hadith-api) ve sunnah.com ile doğrulanmıştır.</p>
+<p>Hadis duaları yalnızca Kütüb-i Sitte'den, sahih veya hasen rivayetlerden alınır: Buhârî, Müslim, Ebû Dâvûd, Tirmizî, Nesâî ve İbn Mâce. Her duada eser, hadis numarası, ravi ve derece belirtilir. Türkçe ve İngilizce anlamlar Niyet tarafından Arapça asıldan özgün olarak yazılmıştır.</p>
 </section>
 <section>
 <h2>Okunuş</h2>
-<p>Her duada iki okunuş vardır: Türkçe arayüzde Türkçe okunuş geleneği, İngilizce arayüzde uluslararası okunuş gösterilir.</p>
+<p>Her duada iki okunuş vardır: Türkçe arayüzde Türkçe okunuş, İngilizce arayüzde uluslararası okunuş gösterilir. İkisi de Niyet tarafından tek ve tutarlı bir şemayla yazılmıştır.</p>
+</section>
+<section>
+<h2>Sağlık</h2>
+<p>Dualar tıbbi tedavinin yerine geçmez. Sağlık sorunlarında bir hekime başvur.</p>
+</section>
+<section>
+<h2>Yazı tipleri</h2>
+<p>Nunito ve Amiri Quran yazı tipleri SIL Open Font License 1.1 ile kullanılır.</p>
 </section>
 <section>
 <h2>Hata bildirimi</h2>
-<p>Bir duada hata fark edersen Ayarlar ekranından geri bildirim gönderebilirsin. Her bildirim kaynağıyla birlikte kontrol edilir.</p>
+<p>Bir duada hata fark edersen Ayarlar ekranındaki geri bildirim satırından mustafaaksit@outlook.com adresine yazabilirsin. Her bildirim kaynağıyla birlikte kontrol edilir.</p>
 </section>
 <section class="card">
 <h2>İletişim</h2>
-<p>Destek, sorular veya bir duadaki hatayı bildirmek için e-posta adresi: <a id="support-email-tr" href="mailto:SUPPORT_EMAIL_TBD">SUPPORT_EMAIL_TBD</a></p>
+<p>Destek, sorular veya bir duadaki hatayı bildirmek için e-posta adresi: <a id="support-email-tr" href="mailto:mustafaaksit@outlook.com">mustafaaksit@outlook.com</a></p>
 </section>
 </article>
 </main>
